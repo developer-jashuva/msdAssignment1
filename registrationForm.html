@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registrationForm</title>
+    
+</head>
+<body >
+    <h1>Registration Form</h1>
+    <p>Please fill out this form with required information</p>
+    <form action="">
+        <label for="firstName">Enter your First Name:</label><br>
+        <input type="text" name="firstName" id="firstName"><br> <br>
+
+        <label for="lastName">Enter your last Name:</label><br>
+        <input type="text" name="lastName" id="lastName"><br><br>
+
+        <label for="firstName">Enter your Email:</label><br>
+        <input type="email" name="firstName" id="firstName"><br><br>
+
+        <label for="firstName">Create a new password:</label><br>
+        <input type="password" name="firstName" id="firstName"><br><br>
+
+        <hr>
+
+        <label for="accountType">accountType(required)</label> <br><br>
+        <input type="radio" name="accountType" >
+        <label for="personal">personal</label> <br>
+        <input type="radio" name="accountType" >
+        <label for="business">business</label> <br><br>
+        
+        <hr> <br><br>
+        <label for="profilePicture">Upload a profilePicture:</label><br>
+        <input type="file" name="file" required> <br><br>
+        <label for="age">Input Your age(years):</label><br>
+        <input type="number" name="age" ><br><br>
+
+        <label for="about">How did you hear about us:</label> <br>
+        <select id="about">
+            <option value="">select one</option>
+            <option value="youtube">youtube</option>
+            <option value="facebook">facebook</option>
+            <option value="other">other</option>
+          </select><br> <br>
+          
+          <label for="bio">provide a bio:</label><br>
+          <input type="text" name="bio"  placeholder=" i like coding on the bench.."> <br> <br>
+          <input type="checkbox" name="accept" required>
+          <label for="accept"> I accept the <a href="">terms and conditions</a></label> <br> <br>
+          <button type="submit">submit</button>
+         
+
+    </form>
+</body>
+</html>
